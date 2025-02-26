@@ -1,38 +1,4 @@
-/*
 
-TemplateMo 570 Chain App Dev
-
-https://templatemo.com/tm-570-chain-app-dev
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
-/* 
----------------------------------------------
-reset
---------------------------------------------- 
-*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -247,8 +213,8 @@ body {
   color: #fff !important;
   text-transform: capitalize;
   font-size: 15px;
-  background: rgb(19,175,240);
-  background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);
+  background: rgb(19, 107, 240);
+  background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgb(40, 97, 253) 100%);
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -258,7 +224,7 @@ body {
 .gradient-button a:hover {
   color: #fff !important;
   background: rgb(19,175,240);
-  background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);
+  background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgb(40, 125, 253) 100%);
 }
 
 .border-button a {
@@ -1272,7 +1238,7 @@ The Clients
 
 .the-clients .nacc .thumb .client-content {
   padding: 60px 30px;
-  background-image: url(../images/client-bg.png);
+  background-image: url(../images/aicalica.gif);
   background-size: cover;
   border-radius: 50px;
   width: 100%;
@@ -1573,7 +1539,7 @@ Footer Style
 */
 
 footer {
-  background-image: url(../images/footer-bg.png);
+  background-image: url(../images/footer.gif);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1585,10 +1551,12 @@ footer {
 footer .section-heading {
   margin-bottom: 45px;
 }
-
+footer .section-heading p {
+  color:bla ;
+}
 footer .section-heading h4 {
   line-height: 45px;
-  color: #fff;
+  color: #000000;
   margin-left: 13%;
   margin-right: 13%;
   text-align: center;
@@ -1635,7 +1603,7 @@ footer #search button:hover {
 
 .footer-widget h4 {
   font-size: 20px;
-  color: #fff;
+  color: #000000;
   font-weight: 700;
   margin-bottom: 30px;
 }
@@ -1678,7 +1646,7 @@ footer .copyright-text p {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 0px;
-  color: #fff;
+  color: #000000;
 }
 
 footer p a {
