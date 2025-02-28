@@ -137,6 +137,27 @@ body {
     margin-bottom: 60px;
   }
 }
+/* Estilos para a barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+}
+
+/* Estilos para o fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Cor de fundo da barra */
+  border-radius: 10px;
+}
+
+/* Estilos para a parte que você arrasta */
+::-webkit-scrollbar-thumb {
+  background: #4b8ef1; /* Cor da "cabeça" da barra */
+  border-radius: 10px;
+}
+
+/* Estilo quando o usuário passa o mouse sobre a barra */
+::-webkit-scrollbar-thumb:hover {
+  background: #4b64f1; /* Cor da "cabeça" da barra quando estiver no hover */
+}
 
 .section-heading {
   position: relative;
