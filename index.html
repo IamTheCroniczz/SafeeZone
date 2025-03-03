@@ -49,9 +49,33 @@
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <img src="assets/images/newlogo.png" alt="Chain App Dev">
+              <img src="assets/images/newlogo.png" alt="Chain App Dev" id="logo-image">
             </a>
             <!-- ***** Logo End ***** -->
+            
+            <!-- ***** Theme Switch Start ***** -->
+            <label class="theme-switch">
+              <input type="checkbox" class="theme-switch__checkbox">
+              <div class="theme-switch__container">
+                <div class="theme-switch__clouds"></div>
+                <div class="theme-switch__stars-container">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 55" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M135.831 3.00688C135.055 3.85027 ..." fill="currentColor"></path>
+                  </svg>
+                </div>
+                <div class="theme-switch__circle-container">
+                  <div class="theme-switch__sun-moon-container">
+                    <div class="theme-switch__moon">
+                      <div class="theme-switch__spot"></div>
+                      <div class="theme-switch__spot"></div>
+                      <div class="theme-switch__spot"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <!-- ***** Theme Switch End ***** -->
+            
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
               <li class="scroll-to-section"><a href="#top" class="active">Início</a></li>
@@ -59,8 +83,7 @@
               <li class="scroll-to-section"><a href="#about">Sobre</a></li>
               <li class="scroll-to-section"><a href="#newsletter">Nos contate</a></li>
               <li>
-                <div class="gradient-button"><a id="modal_trigger" href="#"><i class="fa fa-sign-in-alt"></i>Entre
-                    Agora !</a></div>
+                <div class="gradient-button"><a id="modal_trigger" href="#"><i class="fa fa-sign-in-alt"></i>Entre Agora!</a></div>
               </li>
             </ul>
             <a class='menu-trigger'>
@@ -72,7 +95,7 @@
       </div>
     </div>
   </header>
-  <!-- ***** Header Area End ***** -->
+
 
   
 
@@ -476,6 +499,7 @@
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/popup.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script src="assets/js/darkmode.js"></script>
 </body>
 
 </html>
