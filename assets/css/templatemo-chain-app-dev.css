@@ -779,6 +779,9 @@ body:not(.dark-mode) #logo-image {
 body.dark-mode #logo-image {
   content: url("/assets/images/whitelogo.png");
 }
+body.dark-mode .section-heading h4 {
+  color: #ffffff !important;
+}
 
 .background-header .nav li:last-child a.active:after {
   background-color: transparent;
@@ -1360,7 +1363,7 @@ Banner Style
 
 .main-banner:after {
   content: "";
-  background-image: url(../images/slider.png);
+  background-image: url(../images/white.png);
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -1371,7 +1374,7 @@ Banner Style
   z-index: 1;
 }
 body.dark-mode .main-banner:after {
-  background-image: url("/assets/images/mapinhatop.png"); /* Caminho da imagem no modo escuro */
+  background-image: url("/assets/images/black.png"); /* Caminho da imagem no modo escuro */
 }
 .main-banner .left-content {
   margin-right: 15px;
@@ -2685,5 +2688,85 @@ responsive
   }
   form#contact {
     padding: 30px;
+  }
+}
+.form-control,
+output {
+  display: block;
+  font-size: 11px;
+  line-height: 1.78;
+  color: #555;
+}
+/* Estilização do container do formulário */
+/* Estilização do container do formulário */
+.col-md-10 {
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2); /* Fundo semi-transparente */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); /* Efeito de blur */
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Estilização dos rótulos */
+.form-group label {
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 8px; /* Aumentei o espaçamento */
+  font-size: 16px;
+}
+
+/* Estilização dos inputs e textarea */
+.form-control {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 15px; /* Adicionei mais espaçamento entre os campos */
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Botão de envio */
+.btn-default {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  margin-top: 15px; /* Mais espaço antes do botão */
+}
+
+.btn-default:hover {
+  background: #0056b3;
+  transform: scale(1.05); /* Efeito de leve crescimento ao passar o mouse */
+}
+
+/* Espaçamento do reCAPTCHA */
+[data-netlify-recaptcha] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .col-md-10 {
+    padding: 20px;
+  }
+
+  .btn-default {
+    width: 100%;
   }
 }
